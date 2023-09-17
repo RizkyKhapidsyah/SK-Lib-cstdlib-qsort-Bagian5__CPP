@@ -1,0 +1,43 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\compare(13): warning STL4038: The contents of <compare> are available only with C++20 or later.
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(15,16): error C2955: 'std::array': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\array(407,1): message : see declaration of 'std::array'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(15,59): error C2514: 'std::array': class template cannot be constructed
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\array(407,1): message : see declaration of 'std::array'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,17): error C2663: 'std::array<_Ty,_Size>::data': no overloaded function has valid conversion for 'this' pointer
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\array(566,40): message : could be 'const _Ty *std::array<_Ty,_Size>::data(void) noexcept const'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,17): message : 'const _Ty *std::array<_Ty,_Size>::data(void) noexcept const': cannot convert 'this' pointer from 'std::array' to 'const std::array<_Ty,_Size> &'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,16): message : Reason: cannot convert from 'std::array' to 'const std::array<_Ty,_Size>'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,16): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\array(562,34): message : or       '_Ty *std::array<_Ty,_Size>::data(void) noexcept'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,17): message : '_Ty *std::array<_Ty,_Size>::data(void) noexcept': cannot convert 'this' pointer from 'std::array' to 'std::array<_Ty,_Size> &'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,16): message : Reason: cannot convert from 'std::array' to 'std::array<_Ty,_Size>'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,16): message : Conversion requires a second user-defined-conversion operator or constructor
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,17): message : while trying to match the argument list '()'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,27): error C2662: 'std::array<_Ty,_Size>::size_type std::array<_Ty,_Size>::size(void) noexcept const': cannot convert 'this' pointer from 'std::array' to 'const std::array<_Ty,_Size> &'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,26): message : Reason: cannot convert from 'std::array' to 'const std::array<_Ty,_Size>'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,26): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\array(501,36): message : see declaration of 'std::array<_Ty,_Size>::size'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,27): message : while trying to match the argument list '()'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(17,56): error C2955: 'std::array': use of class template requires template argument list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\array(407,1): message : see declaration of 'std::array'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(20,33): error C2760: syntax error: '>' was unexpected here; expected 'expression'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(20,33): error C2760: syntax error: '>' was unexpected here; expected '}'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(20,33): error C2059: syntax error: '>'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(22,9): error C2065: 'cmp': undeclared identifier
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(26,9): error C2065: 'cmp': undeclared identifier
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(32,5): error C2059: syntax error: ')'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(34,19): error C2065: 'a': undeclared identifier
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(34,5): error C2059: syntax error: 'for'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(34,5): error C2059: syntax error: ')'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(34,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(35,22): error C2065: 'ai': undeclared identifier
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(35,31): error C2059: syntax error: ';'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(36,5): error C2059: syntax error: '}'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(36,5): error C2143: syntax error: missing ';' before '}'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(40,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(40,5): warning C4273: '_getch': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\conio.h(411,45): message : see previous definition of '_getch'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(41,5): error C2059: syntax error: 'return'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(42,1): error C2059: syntax error: '}'
+D:\Documents\#LATIHAN\Pemrograman\C++\#Download\SK-Lib-cstdlib-qsort-Bagian5__CPP\SK-Lib-cstdlib-qsort-Bagian5__CPP\Source.cpp(42,1): error C2143: syntax error: missing ';' before '}'
